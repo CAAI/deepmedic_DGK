@@ -1,0 +1,10 @@
+So far:
+
+Run 
+docker run --gpus all -it tensorflow/tensorflow:latest-gpu bash
+to start docker session. 
+
+Then do
+0. update above to ensure the data and config file are mounted. --mount mount Attach a filesystem mount to the container
+1. install deep medic in the docker instance.
+2. run the training again. 
