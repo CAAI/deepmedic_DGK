@@ -1,0 +1,2 @@
+model_checkpoint_path: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f2/saved_models//trainSessionHNC2//deepMedicHNC_f2.trainSessionHNC2.initial.2022-04-20.05.58.35.647475.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f2/saved_models//trainSessionHNC2//deepMedicHNC_f2.trainSessionHNC2.initial.2022-04-20.05.58.35.647475.model.ckpt"

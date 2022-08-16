@@ -1,0 +1,5 @@
+model_checkpoint_path: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/output/saved_models//trainSessionWithValidTiny//tinyCnn.trainSessionWithValidTiny.final.2022-03-24.08.33.49.357830.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/output/saved_models//trainSessionWithValidTiny//tinyCnn.trainSessionWithValidTiny.initial.2022-03-24.08.31.58.481324.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/output/saved_models//trainSessionWithValidTiny//tinyCnn.trainSessionWithValidTiny.2022-03-24.08.32.37.620135.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/output/saved_models//trainSessionWithValidTiny//tinyCnn.trainSessionWithValidTiny.2022-03-24.08.33.31.719976.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/output/saved_models//trainSessionWithValidTiny//tinyCnn.trainSessionWithValidTiny.final.2022-03-24.08.33.49.357830.model.ckpt"
