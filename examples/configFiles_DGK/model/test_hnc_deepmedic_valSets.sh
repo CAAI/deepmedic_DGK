@@ -1,0 +1,3 @@
+deepMedicRun -model ./modelConfig_HNC_f1.cfg -test ../test/testConfig_HNC_valSet_m1_f0.cfg -load ../../output/output_HNC_f1/saved_models/trainSessionHNC1/deepMedicHNC_f1.trainSessionHNC1.final.2022-05-06.23.30.55.220415.model.ckpt -dev cuda
+deepMedicRun -model ./modelConfig_HNC_f2.cfg -test ../test/testConfig_HNC_valSet_m2_f0.cfg -load ../../output/output_HNC_f2/saved_models/trainSessionHNC2/deepMedicHNC_f2.trainSessionHNC2.final.2022-05-09.03.19.22.271867.model.ckpt -dev cuda
+deepMedicRun -model ./modelConfig_HNC_f3.cfg -test ../test/testConfig_HNC_valSet_m3_f0.cfg -load ../../output/output_HNC_f3/saved_models/trainSessionHNC3/deepMedicHNC_f3.trainSessionHNC3.final.2022-05-04.18.26.01.841199.model.ckpt -dev cuda
