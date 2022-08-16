@@ -1,0 +1,6 @@
+model_checkpoint_path: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f0/saved_models//trainSessionHNC0//deepMedicHNC_f1.trainSessionHNC0.final.2022-04-18.06.29.39.007547.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f0/saved_models//trainSessionHNC0//deepMedicHNC_f1.trainSessionHNC0.2022-04-17.12.15.43.662527.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f0/saved_models//trainSessionHNC0//deepMedicHNC_f1.trainSessionHNC0.2022-04-17.18.20.15.656602.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f0/saved_models//trainSessionHNC0//deepMedicHNC_f1.trainSessionHNC0.2022-04-18.00.24.54.221063.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f0/saved_models//trainSessionHNC0//deepMedicHNC_f1.trainSessionHNC0.2022-04-18.06.29.38.104509.model.ckpt"
+all_model_checkpoint_paths: "/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/outputHNC_f0/saved_models//trainSessionHNC0//deepMedicHNC_f1.trainSessionHNC0.final.2022-04-18.06.29.39.007547.model.ckpt"

@@ -1,0 +1,93 @@
+2022-4-8 6:46:47.14: =============================== logger created =======================================
+2022-4-8 6:46:47.18: 
+2022-4-8 6:46:47.19: ======================== Starting new session ============================
+2022-4-8 6:46:47.19: Command line arguments given: 
+Namespace(device='cuda', model_cfg='/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/configFiles/deepMedic/model/modelConfig_HNC_f4.cfg', reset_trainer=False, saved_model=None, test_cfg=None, train_cfg='/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/configFiles/deepMedic/trainHNC/trainConfigHNC_f4.cfg')
+2022-4-8 6:46:47.57: Available devices to Tensorflow:
+[name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 10861659819575035544
+, name: "/device:XLA_GPU:0"
+device_type: "XLA_GPU"
+memory_limit: 17179869184
+locality {
+}
+incarnation: 18034357863932929824
+physical_device_desc: "device: XLA_GPU device"
+, name: "/device:XLA_CPU:0"
+device_type: "XLA_CPU"
+memory_limit: 17179869184
+locality {
+}
+incarnation: 2705735639953314953
+physical_device_desc: "device: XLA_CPU device"
+]
+2022-4-8 6:46:47.57: CONFIG: The configuration file for the [model] given is: /homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/configFiles/deepMedic/model/modelConfig_HNC_f4.cfg
+2022-4-8 6:46:47.57: =============================================================
+2022-4-8 6:46:47.58: ========== PARAMETERS FOR MAKING THE ARCHITECTURE ===========
+2022-4-8 6:46:47.58: =============================================================
+2022-4-8 6:46:47.58: CNN model's name = deepMedicHNC_f4
+2022-4-8 6:46:47.58: ~~~~~~~~~~~~~~~~~~Model parameters~~~~~~~~~~~~~~~~
+2022-4-8 6:46:47.58: Number of Classes (including background) = 2
+2022-4-8 6:46:47.58: ~~Normal Pathway~~
+2022-4-8 6:46:47.58: Number of Input Channels = 2
+2022-4-8 6:46:47.58: Number of Layers = 8
+2022-4-8 6:46:47.58: Number of Feature Maps per layer = [30, 30, 40, 40, 40, 40, 50, 50]
+2022-4-8 6:46:47.58: Kernel Dimensions per layer = [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]
+2022-4-8 6:46:47.58: Padding mode of convs per layer = ['VALID', 'VALID', 'VALID', 'VALID', 'VALID', 'VALID', 'VALID', 'VALID']
+2022-4-8 6:46:47.58: Residual connections added at the output of layers (indices from 0) = [3, 5, 7]
+2022-4-8 6:46:47.58: Layers that will be made of Lower Rank (indices from 0) = []
+2022-4-8 6:46:47.59: Lower Rank layers will be made of rank = []
+2022-4-8 6:46:47.59: ~~Subsampled Pathway~~
+2022-4-8 6:46:47.59: Use subsampled Pathway = True
+2022-4-8 6:46:47.59: Number of subsampled pathways that will be built = 2
+2022-4-8 6:46:47.59: Number of Layers (per sub-pathway) = [8, 8]
+2022-4-8 6:46:47.59: Number of Feature Maps per layer (per sub-pathway) = [[30, 30, 40, 40, 40, 40, 50, 50], [30, 30, 40, 40, 40, 40, 50, 50]]
+2022-4-8 6:46:47.59: Kernel Dimensions per layer = [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]]
+2022-4-8 6:46:47.59: Padding mode of convs per layer = ['VALID', 'VALID', 'VALID', 'VALID', 'VALID', 'VALID', 'VALID', 'VALID']
+2022-4-8 6:46:47.59: Subsampling Factor per dimension (per sub-pathway) = [[3, 3, 3], [5, 5, 5]]
+2022-4-8 6:46:47.59: Residual connections added at the output of layers (indices from 0) = [3, 5, 7]
+2022-4-8 6:46:47.59: Layers that will be made of Lower Rank (indices from 0) = []
+2022-4-8 6:46:47.59: Lower Rank layers will be made of rank = []
+2022-4-8 6:46:47.59: ~~Fully Connected Pathway~~
+2022-4-8 6:46:47.60: Number of additional FC layers (Excluding the Classif. Layer) = 2
+2022-4-8 6:46:47.60: Number of Feature Maps in the additional FC layers = [250, 250]
+2022-4-8 6:46:47.60: Padding mode of convs per layer = ['mirror', None, None]
+2022-4-8 6:46:47.60: Residual connections added at the output of layers (indices from 0) = [1]
+2022-4-8 6:46:47.60: Layers that will be made of Lower Rank (indices from 0) = []
+2022-4-8 6:46:47.60: Dimensions of Kernels in final FC path before classification = [[3, 3, 3], [1, 1, 1], [1, 1, 1]]
+2022-4-8 6:46:47.60: ~~Size Of Image Segments~~
+2022-4-8 6:46:47.60: Size of Segments for Training = [37, 37, 37]
+2022-4-8 6:46:47.60: Size of Segments for Validation = [17, 17, 17]
+2022-4-8 6:46:47.60: Size of Segments for Testing = [45, 45, 45]
+2022-4-8 6:46:47.60: ~~Dropout Rates~~
+2022-4-8 6:46:47.60: Drop.R. for each layer in Normal Pathway = []
+2022-4-8 6:46:47.60: Drop.R. for each layer in Subsampled Pathway = []
+2022-4-8 6:46:47.61: Drop.R. for each layer in FC Pathway (additional FC layers + Classific.Layer at end) = [0.0, 0.5, 0.5]
+2022-4-8 6:46:47.61: ~~Weight Initialization~~
+2022-4-8 6:46:47.61: Initialization method and params for the conv kernel weights = ['fanIn', 2]
+2022-4-8 6:46:47.61: ~~Activation Function~~
+2022-4-8 6:46:47.61: Activation function to use = prelu
+2022-4-8 6:46:47.61: ~~Batch Normalization~~
+2022-4-8 6:46:47.61: Apply BN straight on pathways' inputs (eg straight on segments) = [False, False, True]
+2022-4-8 6:46:47.61: Batch Normalization uses a rolling average for inference, over this many batches = 60
+2022-4-8 6:46:47.61: ========== Done with printing session's parameters ==========
+2022-4-8 6:46:47.61: =============================================================
+2022-4-8 6:46:47.61: CONFIG: The configuration file for the [session] was loaded from: /homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/configFiles/deepMedic/trainHNC/trainConfigHNC_f4.cfg
+2022-4-8 6:46:47.64: 
+2022-4-8 6:46:47.64: ERROR: Caught exception from main process: [Errno 2] No such file or directory: '/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/configFiles/deepMedic/trainHNC/validation/validationNamesOfPredictions.cfg'
+2022-4-8 6:46:47.64: Traceback (most recent call last):
+  File "/homes/kovacs/anaconda3/envs/deep_medic_dgk1/bin/deepMedicRun", line 175, in <module>
+    _ = session.compile_session_params_from_cfg(model_params)
+  File "/homes/kovacs/anaconda3/envs/deep_medic_dgk1/lib/python3.6/site-packages/deepmedic/frontEnd/trainSession.py", line 85, in compile_session_params_from_cfg
+    self._cfg)
+  File "/homes/kovacs/anaconda3/envs/deep_medic_dgk1/lib/python3.6/site-packages/deepmedic/frontEnd/configParsing/trainSessionParams.py", line 343, in __init__
+    if cfg[cfg.FNAMES_PREDS_VAL] else None
+  File "/homes/kovacs/anaconda3/envs/deep_medic_dgk1/lib/python3.6/site-packages/deepmedic/frontEnd/configParsing/utils.py", line 38, in parse_filelist
+    with open(filelist_path, "r") as inp:
+FileNotFoundError: [Errno 2] No such file or directory: '/homes/kovacs/project_scripts/hnc_segmentation/deep_medic/deepmedic/examples/configFiles/deepMedic/trainHNC/validation/validationNamesOfPredictions.cfg'
+
+2022-4-8 6:46:47.64: Finished.
